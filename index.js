@@ -9,3 +9,5 @@ const port = process.env.PORT || 1337;
 server.listen(port);
 
 console.log("Server running at http://localhost:%d", port);
+response.end("Hello World!");
+response.end("sathya's first Azure test");
